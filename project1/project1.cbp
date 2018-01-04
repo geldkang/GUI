@@ -26,12 +26,14 @@
 		<Linker>
 			<Add option="`wx-config --libs`" />
 		</Linker>
-		<Unit filename="../../sourcecode/myapp.cpp" />
-		<Unit filename="../../sourcecode/myapp.h" />
-		<Unit filename="../../sourcecode/myframe2.cpp" />
-		<Unit filename="../../sourcecode/myframe2.h" />
-		<Unit filename="../../sourcecode/scan.cpp" />
-		<Unit filename="../../sourcecode/scan.h" />
+		<Unit filename="sourcecode/fuzz.cpp" />
+		<Unit filename="sourcecode/fuzz.h" />
+		<Unit filename="sourcecode/myapp.cpp" />
+		<Unit filename="sourcecode/myapp.h" />
+		<Unit filename="sourcecode/myframe2.cpp" />
+		<Unit filename="sourcecode/myframe2.h" />
+		<Unit filename="sourcecode/scan.cpp" />
+		<Unit filename="sourcecode/scan.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

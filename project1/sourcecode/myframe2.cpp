@@ -32,7 +32,6 @@ void MyFrame2::OnScan(wxCommandEvent& event)
 {
 	wxFrame *scan_window = new Scan("Scan");
 	scan_window->Show(TRUE);
-	this->Close();
 }
 
 void MyFrame2::OnUpload(wxCommandEvent& event)

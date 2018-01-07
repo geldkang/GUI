@@ -1,6 +1,7 @@
 #include "myapp.h"
 #include "myframe2.h"
 #include "scan.h"
+#include "fuzz.h"
 
 IMPLEMENT_APP(MyApp);
 

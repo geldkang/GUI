@@ -4837,3 +4837,32 @@
 	"scan.h"
 	"fuzz.h"
 
+1515310546 source:/home/ub/Documents/GUI/project1/sourcecode/fuzz.cpp
+	"fuzz.h"
+
+1515226155 /home/ub/Documents/GUI/project1/sourcecode/fuzz.h
+	<wx/wx.h>
+
+1515309944 source:/home/ub/Documents/GUI/project1/sourcecode/myapp.cpp
+	"myapp.h"
+	"myframe2.h"
+	"scan.h"
+	"fuzz.h"
+
+1515226155 /home/ub/Documents/GUI/project1/sourcecode/myapp.h
+	<wx/wx.h>
+
+1515226155 /home/ub/Documents/GUI/project1/sourcecode/myframe2.h
+	<wx/wx.h>
+
+1515226155 /home/ub/Documents/GUI/project1/sourcecode/scan.h
+	<wx/wx.h>
+
+1515310683 source:/home/ub/Documents/GUI/project1/sourcecode/myframe2.cpp
+	"myframe2.h"
+	"scan.h"
+
+1515310752 source:/home/ub/Documents/GUI/project1/sourcecode/scan.cpp
+	"scan.h"
+	"fuzz.h"
+

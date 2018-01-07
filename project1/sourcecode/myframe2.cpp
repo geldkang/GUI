@@ -12,9 +12,18 @@ MyFrame2::MyFrame2(const wxString& title)
 	: wxFrame(NULL, wxID_ANY, title)
 {
 	wxPanel* panel = new wxPanel(this);
-	wxButton* btn = new wxButton(panel, ID_QUIT, "&Quit", wxPoint(290, 160));
-	wxButton* btn1 = new wxButton(panel, ID_SCAN, "&Scan", wxPoint(75, 40), wxSize(100, 100));
-	wxButton* btn2 = new wxButton(panel, ID_UPLOAD, "&Upload", wxPoint(225, 40), wxSize(100, 100));
+
+	wxBoxSizer *hbox = new wxBoxSizer(wxHORIZONTAL);
+
+	wxButton* scan = new wxButton(panel, ID_SCAN, "&Scan");
+	hbox->Add(scan, 1, wxEXPAND | wxALL, 10);
+	wxButton* upload = new wxButton(panel, ID_UPLOAD, "&Upload");
+	hbox->Add(upload, 1, wxEXPAND | wxTOP | wxBOTTOM | wxRIGHT, 10);
+	wxButton* quit = new wxButton(panel, ID_QUIT, "&Quit");
+	hbox->Add(quit, 1, wxEXPAND | wxTOP | wxBOTTOM | wxRIGHT, 10);
+
+	panel->SetSizer(hbox);
+    Centre();
 }
 
 
@@ -32,6 +41,7 @@ void MyFrame2::OnScan(wxCommandEvent& event)
 {
 	wxFrame *scan_window = new Scan("Scan");
 	scan_window->Show(TRUE);
+	this->Close();
 }
 
 void MyFrame2::OnUpload(wxCommandEvent& event)

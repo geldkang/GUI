@@ -1,4 +1,4 @@
 # wfuzz_gui
-used wxwidgets
+Description: gui module of wfuzz(Wi-Fi fuzzer)
 
-gui module of wfuzz
+used wxwidgets for implementation
